@@ -1,6 +1,25 @@
-# Code Exercises for BICT Degree, 1st Year 2nd Semester
+# Internet & Web Technologies Uva Wellassa University 1.2 Semester Projects
+Welcome to the Internet & Web Technologies GitHub repository for Uva Wellassa University's 1.2 Semester. This repository serves as a virtual toolbox for students enrolled in the BICT Degree program to access resources, code samples, and exercises related to internet and web technologies.
 
-These exercises cover programming web dev and software development to help students improve their coding skills. Code Exercises for BICT Degree, 1st Year 2nd Semester This repository contains a collection of code exercises that were assigned to students in the BICT (Bachelor of Information and Communication Technology) Degree program at Uva Wellassa University during the 1st year 2nd semester.
+## Contents
+The repository contains code samples, exercises, and data sets related to internet and web technologies, covering topics such as:
 
-## Getting Started
-To get started with these exercises, simply clone the repository to your local machine and start working on the exercises in your preferred programming language. The repository is organized into different folders, each of which corresponds to a specific topic or exercise. Within each folder, there are one or more code files, as well as any necessary data or input files.
+- HTML
+- CSS
+- JavaScript
+- Web APIs
+- Frameworks such as React and Angular
+## Usage
+To access and use this repository, you can clone it to your local machine by running the following command:
+
+```
+git clone https://github.com/your-username/internet-web-tech-uva-wellassa-1.2.git
+}
+```
+
+You can navigate the repository's folders to access the relevant resources, and use GitHub's pull request feature to submit assignments.
+
+## Course Syllabus and Policies
+For more information on the course syllabus and policies, please refer to the course material provided by your instructor. If you have any questions or issues related to the repository, please reach out to your instructor or teaching assistant.
+
+Happy coding!
