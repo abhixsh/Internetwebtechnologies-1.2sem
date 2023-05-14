@@ -14,7 +14,6 @@ To access and use this repository, you can clone it to your local machine by run
 
 ```
 git clone https://github.com/your-username/internet-web-tech-uva-wellassa-1.2.git
-}
 ```
 
 You can navigate the repository's folders to access the relevant resources, and use GitHub's pull request feature to submit assignments.
