@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    background: url(https://images.unsplash.com/photo-1533094108581-e96c5cf50d1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.navbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a.hover{
+    background: violet;
+    border-radius: 2px;
+}
+
+.wrapper .center{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    width: 900px;
+    font-weight: bold;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 885px;
+    text-align: center;
+}
+.center .button{
+    margin: 35px 280px;
+}
+
+.button button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #28282B;
+    background: violet;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #845bb3;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.button .btn2{
+    margin-left: 25px;
+}
+.button button:hover{
+    background: #cc0000;
+}
