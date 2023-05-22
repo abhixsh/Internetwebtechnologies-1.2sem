@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+<title>Professional Resume</title></head>
+
+<body>
+<div class="form">
+<h1>Professional Information Form</h1>
+
+<form>
+
+   <fieldset class="first-section">
+   <legend>Contact Details</legend>
+   <label for="name">Name</label>
+   <input autofocus type="text" id="name" name="name" autofocus placeholder="Abishek Haththakage" autocomplete="on" required><br><br>
+   <label for="email">Email</label>
+   <input type="email" id="email" placeholder="abhixsh@gmail.com"><br><br>
+   <label for="tel">Phone</label>
+   <input type="tell" id="tell" placeholder="+765576407"><br><br>
+   </fieldset><br>
+
+
+   <fieldset class="second-section">
+   <legend>Personal Information</legend>
+   <br>
+   <label for="dob">Birth Date</label>
+   <input type="date" id="dob"><br><br>
+   <label for="gender">Gender</label>
+   <input list="genders" name="gender" id="gender">
+   <datalist id="genders">
+   <option value="Female">
+   <option value="Male">
+   <option value="Other">
+   </datalist><br><br>
+    </fieldset>
+    <br>
+
+    <fieldset class="third-section">
+    <legend>Professional Sunnary</legend><br>
+   <label for="xp">Work Experience </label> <br>
+   <textarea id="xp" name="xp" rows="2"></textarea><br><br>
+    <label for="when">Core Qualifications</label> <br>
+    <textarea id="when" name="when" rows="2"></textarea>
+    <br><br>
+
+    <div class="java">
+        <label for="java">Java</label>
+        <input type="range" value="4" max="10" id="java" name="java">
+    </div>
+    <div class="kt">
+        <label for="kt">Kotlin</label>
+        <input type="range" value="4" max="10" id="kt" name="kt">
+    </div>
+    <div class="an">
+        <label for="an">Android</label>
+        <input type="range" value="4" max="10" id="an" name="an">
+    </div>
+
+    </fieldset>
+    <br>
+
+   <button>Submit</button>
+
+</form>
+</body>
+</html>
