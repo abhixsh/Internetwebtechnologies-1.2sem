@@ -2,29 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Coustom Website</title>
-    <link rel="stylesheet" href="couWeb.css"
+    <title>Custom Website</title>
+    <link rel="stylesheet" href="couWeb.css">
 </head>
-<body>
-    <div class="wrapper">
-            <nav class="navbar">
-                <img class="logo" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1681834587447/-DiPeZH83.png?w=1000&h=250&fit=crop&crop=entropy&auto=compress,format&format=webp">
+<body class="wrapper">
+    <div>
+        <nav class="navbar">
+            <img class="logo" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1681834587447/-DiPeZH83.png?w=1000&h=250&fit=crop&crop=entropy&auto=compress,format&format=webp">
             <ul>
                 <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">About</button>
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                        </div>
+                    </div>
+                </li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Feedback</a></li>
             </ul>
-            </nav>
-            <div class="center">
-                <h1>Welcome to Cascade</h1>
-                <h2>Create Something New</h2>
-                <div class="button">
-                    <button>Explore More</button>
-                    <button class="btn2"> Subscribe US</button>
-                </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <div class="center">
+            <center>
+            <h1>Welcome to Cascade</h1>
+            <h2>Create Something New</h2>
+            </center>
+            <div class="button">
+                <button>Explore More</button>
+                <button class="btn2">Subscribe US</button>
+                <br><br>
+                <form action="/action_page.php">
+                    <label for="faname">First name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+        
+                    <label for="lanme">Last name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+        
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                       <option value="Australia">Australia</option>
+                       <option value="canada">Canada</option>
+                       <option value="usa">USA</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="submit">
+                 </form>
             </div>
+        </div>
     </div>
 </body>
 </html>
